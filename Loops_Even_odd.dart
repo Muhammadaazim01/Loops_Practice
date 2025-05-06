@@ -9,7 +9,7 @@ void main() {
       OddNumbers.add(numbers[i]);
     }
   }
-  print("Normal LIst:$numbers");
+  print("Normal List:$numbers");
   print("Even Numbers:$EvenNumbers");
   print("OddNumber:$OddNumbers");
 }
