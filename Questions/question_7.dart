@@ -6,12 +6,13 @@ void main() {
   int maxnum = numbers[0];
   int minnum = numbers[0];
   for (var i = 1; i < numbers.length; i++) {
-    if (numbers[i] < maxnum) {
+    if (numbers[i] < minnum) {
       minnum = numbers[i];
-    } else if (numbers[i] > minnum) {
+    }
+    if (numbers[i] > maxnum) {
       maxnum = numbers[i];
     }
   }
-  print("Max Numbers:$maxnum");
   print("Min Numbers:$minnum");
+  print("Max Numbers:$maxnum");
 }
