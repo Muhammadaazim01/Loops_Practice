@@ -33,6 +33,7 @@ void main() {
   for (var student in studentDetails) {
     List<int> marks = student["marks"];
     double average = marks.reduce((a, b) => a + b) / marks.length;
+    
     String grade;
     if (average >= 90) {
       grade = "A";

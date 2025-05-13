@@ -5,7 +5,7 @@
 // Output: 2 4 6 8 10
 
 void main() {
-  List<int> numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  List<int> numbers = [31, 52, 23, 64, 85, 16, 27, 38, 59, 10];
   for (var i = 0; i < numbers.length; i++) {
     if (numbers[i] % 2 == 0) {
       print("Even Numbers : ${numbers[i]}");

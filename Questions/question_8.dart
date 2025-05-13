@@ -3,16 +3,16 @@
 
 void main() {
   List<int> numbers = [1, 12, 51, 50, 41, 71];
-  int sum = 0;
+  int sumnegativetotal = 0;
   int count = 0;
   for (int n in numbers) {
     if (n < 0) {
-      sum += n;
+      sumnegativetotal += n;
       count++;
     }
   }
   if (count > 0) {
-    print("Average of negative number ${sum / count}");
+    print("Average of negative number ${sumnegativetotal / count}");
   } else {
     print("No negative number");
   }

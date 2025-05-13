@@ -3,9 +3,9 @@
 void main() {
   List<int> numbers = [3, 7, 2, 9, 1, 6];
   for (var i = 0; i < numbers.length; i++) {
-    int number = numbers[i];
-    if (number > 5) {
-      print(number);
+    int value = numbers[i];
+    if (value > 5) {
+      print(value);
     }
   }
 }

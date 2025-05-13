@@ -8,7 +8,7 @@ void main() {
   int number = 5;
   int factorial = 1;
   for (var i = 1; i <= number; i++) {
-    factorial *= i;
+    factorial = factorial * i;
   }
   print("Factorial is $number is $factorial");
 }

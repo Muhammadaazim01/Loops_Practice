@@ -5,7 +5,7 @@ void main() {
   List<int> numbers = [3, 1, 9, 5, 7, 2, 8];
   int maxnum = numbers[0];
   int minnum = numbers[0];
-  for (var i = 1; i < numbers.length; i++) {
+  for (var i = 0; i < numbers.length; i++) {
     if (numbers[i] < minnum) {
       minnum = numbers[i];
     }

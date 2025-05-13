@@ -12,5 +12,5 @@ void main() {
     sum += digit;
     numbers = numbers ~/ 10;
   }
-  print("Sum of digits $sum");
+  print("digits of number : $sum");
 }
